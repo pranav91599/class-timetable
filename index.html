@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>College Timetable</h1>
+
+    <p><strong>Current Time:</strong> <span id="device-time">--</span></p>
+
+    <div id="current-class-container">
+        <p><strong>Current Subject:</strong> <span id="current-subject">None</span></p>
+        <p><strong>Time Remaining:</strong> <span id="time-remaining">--</span></p>
+    </div>
+
+    <table id="timetable">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>09:20 - 10:10</th>
+                <th>10:10 - 11:00</th>
+                <th>11:15 - 12:05</th>
+                <th>12:05 - 12:55</th>
+                <th>02:05 - 02:50</th>
+                <th>02:50 - 03:35</th>
+                <th>03:50 - 04:35</th>
+                <th>04:35 - 05:20</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Monday</td><td>ANP</td><td>OOSD</td><td>OS</td><td>DSA</td><td>DBMS</td><td>DSA</td><td>ANP</td><td>M-H</td></tr>
+            <tr><td>Tuesday</td><td>OOSD</td><td>OS</td><td>MLE</td><td>DSA</td><td>SDC</td><td>DSA LAB</td><td>SDC</td><td>-</td></tr>
+            <tr><td>Wednesday</td><td>OS</td><td>MLE</td><td>SF/CEP</td><td>LIB/NET/M-H</td><td>DSA LAB</td><td>M-H</td><td>DSA LAB</td><td>-</td></tr>
+            <tr><td>Thursday</td><td>DSA</td><td>DBMS</td><td>OOSD</td><td>ANP</td><td>MLE LAB</td><td>MLE</td><td>ANP</td><td>-</td></tr>
+            <tr><td>Friday</td><td>MLE</td><td>DBMS LAB</td><td>DBMS LAB</td><td>DSA</td><td>MLE</td><td>DBMS</td><td>ANP</td><td>-</td></tr>
+            <tr><td>Saturday</td><td>DBMS</td><td>OOSD</td><td>DSA</td><td>M-H</td><td>OS</td><td>MLE</td><td>ANP</td><td>-</td></tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
